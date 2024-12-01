@@ -1,0 +1,16 @@
+git branch feature-update
+git checkout feature-update
+
+echo "// Added new feature in feature-update branch" >> script.js
+git add script.js
+git commit -m "Feature update: Added new feature"
+
+git checkout main
+echo "// Main branch changes" >> script.js
+git add script.js
+git commit -m "Main branch update"
+
+git merge feature-update
+
+git add script.js
+git commit -m "Resolved merge conflict between main and feature-update

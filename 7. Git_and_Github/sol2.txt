@@ -1,0 +1,13 @@
+git branch feature-greeting
+
+git checkout feature-greeting
+
+echo "function greet(name) { console.log('Hello, ' + name + '!'); }" >> script.js
+
+git add script.js
+git commit -m "Added greet function for personalized greetings"
+
+git checkout main
+git merge feature-greeting
+
+git checkout main

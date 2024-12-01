@@ -1,0 +1,10 @@
+echo "// Unnecessary file" > obsolete.js
+git add obsolete.js
+git commit -m "Added obsolete.js"
+
+git rm obsolete.js
+git commit -m "Removed obsolete.js"
+
+git reset --soft HEAD~1
+git rm obsolete.js
+git commit -m "Undo addition of obsolete.js"

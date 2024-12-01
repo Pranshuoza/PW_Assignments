@@ -1,0 +1,6 @@
+git init
+
+echo "function hello() { console.log('Hello, World!'); }" > script.js
+
+git add script.js
+git commit -m "Initial commit: Added script.js with hello function"
