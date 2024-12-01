@@ -1,0 +1,6 @@
+Data modeling defines how data is organized, stored, and accessed. It creates a blueprint of the database structure.
+
+Types of Data Modeling:
+Conceptual Data Modeling: Focuses on high-level design, defining entities and relationships.
+Logical Data Modeling: Adds detail to the conceptual model, including attributes and data types.
+Physical Data Modeling: Defines how data is physically stored on the storage device.

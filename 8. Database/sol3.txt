@@ -1,0 +1,8 @@
+A Database Management System (DBMS) is a software tool that allows users to create, manage, and interact with databases. Examples include MySQL, PostgreSQL, and MongoDB.
+
+Need for DBMS:
+Eliminating Redundancy: Centralized storage reduces data duplication.
+Data Consistency: Changes in data are reflected universally across all applications.
+Improved Security: DBMS allows role-based access control to secure data.
+Ease of Data Sharing: Applications can access data in a uniform format.
+Efficient Query Processing: DBMS optimizes complex data retrieval tasks.

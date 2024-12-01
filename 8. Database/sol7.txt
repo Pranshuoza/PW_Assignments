@@ -1,0 +1,10 @@
+The three-schema architecture divides the database system into three levels:
+
+External Level (View Schema): Represents how end-users interact with the data.
+Conceptual Level: Provides a unified view of the entire database, independent of physical storage.
+Internal Level (Physical Schema): Describes how data is physically stored on disk.
+Advantages of Three-Schema Architecture:
+Data Abstraction: Users interact with data without worrying about its physical storage.
+Flexibility: Changes in one level don’t affect the others.
+Improved Security: User views restrict access to only necessary data.
+Simplified Maintenance: Physical changes don’t impact application logic.

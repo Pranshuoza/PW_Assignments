@@ -1,0 +1,8 @@
+A file-based storage system is a method of storing data in files within a file system on a disk. Each file is managed by the operating system and may represent a different data structure.
+
+Challenges of File-Based Storage Systems:
+Data Redundancy: Storing the same data in multiple files leads to duplication and wastage of storage.
+Data Inconsistency: Lack of centralized control can result in conflicting data across files.
+Poor Data Security: File systems lack robust mechanisms to restrict unauthorized access.
+Difficult Data Sharing: Sharing data across applications is cumbersome due to different file formats.
+Lack of Flexibility: Adding or modifying data structure often requires reprogramming applications.

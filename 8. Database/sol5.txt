@@ -1,0 +1,19 @@
+Types of Classification in DBMS
+Based on Data Model:
+
+Relational DBMS: Data is organized in tables (e.g., MySQL, PostgreSQL).
+Hierarchical DBMS: Data follows a tree-like structure (e.g., IBM IMS).
+Network DBMS: Data is organized as graphs with nodes and edges (e.g., Integrated Data Store).
+NoSQL DBMS: For unstructured data like JSON (e.g., MongoDB, Cassandra).
+Based on Users:
+
+Single-user DBMS: Used by a single user at a time (e.g., MS Access).
+Multi-user DBMS: Supports multiple users simultaneously (e.g., Oracle).
+Based on Architecture:
+
+Centralized DBMS: A single database for the entire organization.
+Distributed DBMS: Data is distributed across multiple locations.
+Based on Usage:
+
+OLTP (Online Transaction Processing): Handles real-time queries and transactions.
+OLAP (Online Analytical Processing): Used for data analysis and business intelligence.

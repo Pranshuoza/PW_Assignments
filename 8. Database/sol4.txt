@@ -1,0 +1,6 @@
+Challenges of File-Based Systems Tackled by DBMS
+Eliminating Redundancy: DBMS uses normalization to remove duplicate data.
+Ensuring Consistency: Data is updated in a single, centralized location, ensuring accuracy.
+Enhanced Security: Role-based access and encryption ensure only authorized users access data.
+Data Sharing: DBMS provides APIs and query languages (like SQL) for easy sharing across applications.
+Flexibility and Scalability: DBMS can adapt to changing data needs without requiring significant modifications.
